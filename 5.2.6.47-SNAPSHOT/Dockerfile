@@ -1,4 +1,4 @@
-FROM tomcat:8.0.48-jre8
+FROM tomcat:8.0.46-jre8
 
 MAINTAINER Eddie Ballisty, eddie.ballisty@blueriver.com
 
