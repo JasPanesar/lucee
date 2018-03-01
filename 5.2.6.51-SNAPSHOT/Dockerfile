@@ -2,6 +2,8 @@ FROM tomcat:8.0.48-jre8
 
 MAINTAINER Eddie Ballisty, eddie.ballisty@blueriver.com
 
+STOPSIGNAL SIGWINCH
+
 ENV LUCEE_JARS_URL http://release.lucee.org/rest/update/provider/loader/5.2.6.51-SNAPSHOT
 ENV LUCEE_JAVA_OPTS "-Xms512m -Xmx512m"
 
