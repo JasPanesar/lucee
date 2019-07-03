@@ -1,4 +1,4 @@
-FROM lucee/lucee:5.3.3.56-SNAPSHOT
+FROM lucee/lucee:5.3.4.0-SNAPSHOT 
 
 MAINTAINER Eddie Ballisty, eddie.ballisty@blueriver.com
 
